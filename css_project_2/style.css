@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Dancing+Script&family=Montserrat:wght@300;400;500;700&family=Poppins:wght@200;500&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden; /*now no side scrolliing possible*/
+}
+
+.store{
+    margin: auto;
+    margin-bottom: 100px;
+    width: 60%;
+    min-height: 100%;
+    /* background-color: violet; */
+    /* border: 2px solid red; */
+}
+
+h1{
+    /* text-justify: ; mystery to me*/
+    text-align: center;
+    padding: 30px;
+    font-size: 60px;
+    font-family: 'Dancing Script', cursive;
+    color: rgba(188, 5, 5, 0.658);
+}
+
+.shoes{
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* gap: 15px; */
+}
+
+.cards{
+    /* border:2px solid red; */
+    width: 30%;
+    min-height: 430px;
+    border-radius: 12px;
+    padding: 10px;
+    box-shadow: 4px 4px 10px rgb(169, 164, 164);
+    margin-bottom: 30px;
+}
+/* .cards:hover{
+    scale: 1;
+    transition: 0.6s all ease-in;
+} */
+/* .cards div:nth-child(1)>img{
+    width: 100%;
+} */
+.image{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.image > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.image > img:hover{
+    scale: 1.4;
+    transition: 0.4s all ease-in;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px 20px;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.cart-img{
+    width: 45px;
+}
+
+.description .same{
+    font-family: 'Poppins', sans-serif;
+}
+
+.description .different{
+    font-family: 'Poppins', sans-serif;
+    opacity: .5;
+}

@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Montserrat:wght@300;400;500;700&family=Poppins:wght@200;500&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* font-family: 'Bungee Spice', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif; */
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(bg-img.jpg);
+    background-size: cover;
+}
+
+.loginsection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 50%;
+    height: 70%;
+    background-color: rgba(48, 62, 75, 0.447);
+    backdrop-filter: blur(1px);
+    border-radius: 10px;
+    color:white;
+}
+
+.logindetails{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.remember{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.remember p{
+    text-decoration: underline;
+}
+input[type="text"], input[type="password"]{
+    padding: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+button{
+    padding: 15px 35px;
+    border-radius: 10px;
+    text-decoration: none;
+    background: linear-gradient(45deg,lightgray,lightskyblue);
+
+}
